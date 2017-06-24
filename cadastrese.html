@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+
+<head>
+
+<title>Cadastre-se Biblioteca Municipal de Anápolis</title>
+
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<meta name="description" content="Está página é para cadastro de estudantes na nossa biblioteca." />
+<meta name="keywords" content="cadastrar, inscrever, emprestar" />
+<meta http-equiv="author" content="Soon Sam" />
+<meta http-equiv="content-language" content="pt-br">
+
+</head>
+<body>
+
+<div id="menu">
+	<img class="img1" src="biblioteca.jpg" width="250" height="150" title="Biblioteca Municipal de Anápolis" alt="Biblioteca Municipal de Anápolis">
+	<div id="tit">
+		BIBLIOTECA MUNICIPAL<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp DE ANÁPOLIS
+	</div>
+	<img class="img2" src="biblioteca.jpg" width="250" height="150"><br>
+</div>
+
+<div id="lista">
+	<ul>
+		<li><a href="Capa.html">Menu</a></li>
+		<li><a href="Livros.html"> Livros</a></li>
+		<li><a href="LivrosDisponiveis.html"> Livros Disponíveis</a></li>
+		<li><a href="EstudantesCadastrados.html"> Estudantes Cadastrados</a></li>
+		<li><a href="cadastrese.html"> Cadastre-se</a></li>
+		<li><a href="Faleconosco.html"> Fale Conosco</a></li>
+	</ul>
+</div>
+
+
+<h1>CADASTRE-SE:</h1>
+
+<form id="cadastro" action="" method="">
+
+Você é um estudante?<br>
+<label for="sim"> Sim:</label>
+<input type="radio" id="sim" name="yesorno" value=""><br>
+<label for="nao"> Não:</label>
+<input type="radio" id="nao" name="yesorno" value=""><br><br>
+
+<p>Ao cadastrar no nosso sistemo você estará hábil utlizar todos os mais variados livros da nossa biblioteca.<br>
+Preencha os dados abaixos para se cadastrar. Não perca tempo, aprenda cada vez mais!!</p><br><br>
+
+<div class="row">
+	<label for="nome"> Nome Completo: </label>
+	<input type="text" id="nome" name="" size="50"><br><br>
+</div>
+
+<div class="row">
+	<label for="rua"> Rua: </label>
+	<input type="text" id="rua" name="" size="100"><br><br>
+</div>
+
+<div class="row">
+	<label for="bairro"> Bairro: </label>
+	<input type="text" id="bairro" name="" size="50"><br><br>
+</div>
+
+<div class="row">
+	<label for="comp"> Complemento: </label>
+	<input type="text" id="comp" name="" size="50"><br><br>
+</div>
+
+<div class="row">
+	<label for="dn"> Data de Nascimento: </label>
+	<input type="date"> <br><br>
+</div>
+
+<div class="row">
+	Estado:
+	<select>
+		<option value="Tocatins"> Tocantins </option>
+		<option value="RS"> Rio Grande do Sul </option>
+		<option value="PR"> Paraná </option>
+		<option value="Goiás"> Goiás </option>
+		<option value="Amapá"> Amapá </option>
+	</select>
+</div>
+
+<div class="row">
+	<label for="cid"> Cidade: </label>
+	<input type="text" id="cid" name=""><br><br>
+</div>
+
+<div class="row">
+	<label for="esc"> Escola: </label>
+	<input type="text" id="esc" name="" size="50"><br><br>
+</div>
+
+<div class="row">
+	<label for="user"> Username: </label>
+	<input type="text" id="user" name=""><br><br>
+</div>
+
+<div class="row">
+	<label for="senha"> Senha: </label>
+	<input type="text" id="senha" name=""><br><br>
+</div>
+
+Quais os tipos de livro que você mais gosta? <br>
+(Você pode marcar mais do que uma opção) <br>
+<input type="checkbox" name=""> Romântico <br> 
+<input type="checkbox" name=""> Comédia <br>
+<input type="checkbox" name=""> Ficção Científica <br>
+<input type="checkbox" name=""> Suspense <br>
+<input type="checkbox" name=""> Autoajuda <br>
+<input type="checkbox" name=""> Escolares <br>
+<input type="checkbox" name=""> Terror <br><br>
+
+<label for="com"> Conte-nos um pouco sobre você!</label><br>
+<textarea id="com" rows="10" cols="100"></textarea><br>
+
+<input type="submit" name="Enviar">
+
+</form>
+
+</body>
+</html>
